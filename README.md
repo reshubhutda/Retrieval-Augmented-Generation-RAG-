@@ -8,6 +8,8 @@
 ![LLM](https://img.shields.io/badge/Model-Llama--3.3--70B--Versatile-purple)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Chroma](https://img.shields.io/badge/VectorDB-ChromaDB-orange)
+![SentenceTransformers](https://img.shields.io/badge/SentenceTransformers-all--MiniLM--L6--v2-blueviolet)
+![Embeddings](https://img.shields.io/badge/Embeddings-Semantic_Search-green)
 
 </div>
 
@@ -80,6 +82,7 @@ source .venv/bin/activate   # (Mac/Linux)
 
 # Install dependencies
 pip install -r requirements.txt
+
 
 
 
