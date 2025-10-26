@@ -20,11 +20,14 @@
 I’ve worked with **Google Gemini** before, but this marks my **first real hands-on experience with Retrieval-Augmented Generation (RAG)** — and it’s been a fascinating build.  
 
 After a full day of watching videos, experimenting, and debugging, I successfully built a complete **RAG pipeline** that can:  
-- Read PDFs 📄  
-- Understand their context 🧠  
-- Retrieve meaningful chunks 🔍  
-- Generate natural, grounded answers 💬  
-- And even **remember previous questions** in the same session 🔁  
+- 📄 **Read and parse complex PDFs** efficiently  
+- 🧠 **Comprehend and preserve document context** across sections  
+- ✂️ **Chunk text intelligently** using recursive splitting to avoid context loss  
+- 🔍 **Generate embeddings** via *all-MiniLM-L6-v2* (Sentence Transformer) for semantic understanding  
+- 🧱 **Store and query embeddings** within *Chroma Vector DB* for instant retrieval  
+- 💬 **Generate grounded, contextual answers** using *LangChain + Llama-3.3-70B-Versatile*  
+- 🔁 **Remember previous questions** — maintaining chat session memory for follow-ups  
+- ⚡ **Blend speed with interpretability**, making it ideal for both analysts and researchers 
 
 This project combines **information retrieval + language generation** into a seamless local knowledge assistant that truly understands your data.  
 
@@ -82,6 +85,7 @@ source .venv/bin/activate   # (Mac/Linux)
 
 # Install dependencies
 pip install -r requirements.txt
+
 
 
 
