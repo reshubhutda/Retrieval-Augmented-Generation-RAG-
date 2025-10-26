@@ -7,7 +7,6 @@
 ![LangChain](https://img.shields.io/badge/LangChain-Framework-green)
 ![LLM](https://img.shields.io/badge/Model-Llama--3.3--70B--Versatile-purple)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
-![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red)
 ![Chroma](https://img.shields.io/badge/VectorDB-ChromaDB-orange)
 
 </div>
@@ -76,5 +75,6 @@ source .venv/bin/activate   # (Mac/Linux)
 
 # Install dependencies
 pip install -r requirements.txt
+
 
 
