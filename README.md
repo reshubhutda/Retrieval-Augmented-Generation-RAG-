@@ -60,6 +60,12 @@ This project combines **information retrieval + language generation** into a sea
 
 ---
 
+<img width="1582" height="987" alt="RAG 1 " src="https://github.com/user-attachments/assets/e5c7e04f-cc70-4c27-861c-ac5751a747d4" />
+<img width="1577" height="995" alt="RAG 2" src="https://github.com/user-attachments/assets/ea1ca742-9969-4502-aaec-989d13144421" />
+<img width="1578" height="988" alt="RAG 3" src="https://github.com/user-attachments/assets/b2f74f31-3e2f-4d04-976a-4a989d22f1a5" />
+<img width="1583" height="991" alt="RAG 4" src="https://github.com/user-attachments/assets/bfa35796-1985-4fb2-a342-313d335a3aeb" />
+<img width="1578" height="987" alt="RAG 5" src="https://github.com/user-attachments/assets/9d42bdd4-3009-467a-9ee0-9accde36690e" />
+
 ## 🚀 Run Locally  
 
 ```bash
@@ -74,6 +80,9 @@ source .venv/bin/activate   # (Mac/Linux)
 
 # Install dependencies
 pip install -r requirements.txt
+
+
+
 
 
 
