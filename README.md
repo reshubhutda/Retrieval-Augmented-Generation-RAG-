@@ -56,7 +56,6 @@ This project combines **information retrieval + language generation** into a sea
 | **Vector Store** | `ChromaDB` |
 | **LLM** | `Llama-3.3-70B-Versatile` |
 | **Framework** | `LangChain` |
-| **Frontend** | `Streamlit` |
 | **Language** | Python 3.10+ |
 
 ---
@@ -75,6 +74,7 @@ source .venv/bin/activate   # (Mac/Linux)
 
 # Install dependencies
 pip install -r requirements.txt
+
 
 
 
